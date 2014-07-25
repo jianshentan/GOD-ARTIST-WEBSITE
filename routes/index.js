@@ -22,3 +22,7 @@ exports.cn_headlines = function(req, res){
 exports.cn_propaganda = function(req, res){
   res.render( 'cn_propaganda' );
 };
+
+exports.guo_in_usa= function(req, res){
+  res.render( 'guo_in_usa' );
+};

@@ -193,14 +193,6 @@ h2 {
     -webkit-animation: shadowfadein__container-mid 300ms ease-in-out;
 }
 
-/* --- GUO in USA --- */
-.guo_in_usa {
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    margin: 5px;
-}
-
 /* --- ABOUT --- */
 #about__image {
     background-image: url("../media/about.png");
@@ -220,6 +212,50 @@ h2 {
     font-size: 1.6em;
     line-height: 2.2em;
 }
+
+/* ---- GUO IN USA --- */
+.guo-in-usa__container {
+    height: 518px;
+    width: 45%;
+    margin-right: 9%;
+    background-color: white;
+    position: relative;
+}
+
+.guo-in-usa__left {
+    position: absolute;
+    height: 100%;
+}
+
+.guo-in-usa__right {
+    position: absolute;
+    height: 518px !important;
+    width: 102px;
+    right: 0px;
+    line-height: 367px;;
+    font-size: 0em;
+    text-align: center;
+    color: #3366ff;
+}
+
+.guo-in-usa__left:hover + .guo-in-usa__right {
+    background-color: white;
+    font-size: 2em;
+}
+
+.guo-in-usa__right:hover {
+    background-color: #3366ff;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+.guo-in-usa__desc {
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
 
 /* --- SXLW --- */
 
@@ -316,7 +352,10 @@ h2 {
 
 #cn_propaganda__content {
     position: absolute;
+    background-image: url('../media/cn_propaganda.png');
     background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 #cn_propaganda__button {
@@ -325,7 +364,7 @@ h2 {
     z-index: 100;
     color: #3366ff;
     cursor: pointer;
-    line-height: 215px;;
+    line-height: 230px;;
     text-align: center;
     font-size: 0em;
 }

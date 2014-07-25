@@ -10,5 +10,9 @@ $( document ).ready( function() {
     $( "#cn_propaganda__button" ).click( function( ) {
         window.location.href = "/cn_propaganda";
     });
+
+    $( "#guo-in-usa__button" ).click( function( ) {
+        window.location.href = "/guo_in_usa";
+    });
 });
 
