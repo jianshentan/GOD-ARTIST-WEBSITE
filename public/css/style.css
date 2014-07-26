@@ -167,7 +167,7 @@ h2 {
 .type-4__container {
     background-image: url('../media/splash.png');
     background-position: 0px -181px;
-    margin: 100px auto;
+    margin: 100px auto 50px auto;
     height: 700px;
     color: red;
     text-align: center;
@@ -452,6 +452,15 @@ h2 {
 
 .featured-desc {
     position: absolute;
+}
+
+.featured-item{
+    -webkit-animation: shadowfadeout__container-small 300ms ease-in-out;
+}
+
+.featured-item:hover {
+    box-shadow: 20px 20px 10px rgba(0,0,90,0.5);
+    -webkit-animation: shadowfadein__container-small 300ms ease-in-out;
 }
 
 #featured-image__01 { background-image: url("../media/china_nsa.png"); background-size: cover; }
