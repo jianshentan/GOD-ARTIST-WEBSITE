@@ -515,3 +515,15 @@ h2 {
 #cn_propaganda__detail_container iframe {
     margin: 10px auto !important;
 }
+
+
+
+@media only screen and (max-device-width: 480px) {
+    .featured-image {
+        background-color: rgba(51,102,255,0.85);
+        width: 165px;
+        font-size: 1.3em;
+        font-weight: 700;
+        padding: 10px;
+    }
+}
