@@ -395,7 +395,6 @@ h2 {
 
 .featured a {
     color: white;
-
 }
 
 .featured {
@@ -519,11 +518,31 @@ h2 {
 
 
 @media only screen and (max-device-width: 480px) {
-    .featured-image {
+    .featured-desc {
         background-color: rgba(51,102,255,0.85);
         width: 165px;
         font-size: 1.3em;
         font-weight: 700;
         padding: 10px;
+    }
+
+    .sxlw__right {
+        background-color: white;
+        font-size: 2em;
+    }
+
+    #cn_propaganda__button {
+        background-color: white;
+        font-size: 2em;
+    }
+    
+    #cn_headlines__button {
+        background-color: white;
+        font-size: 2em;
+    }
+
+    .guo-in-usa__right {
+        background-color: white;
+        font-size: 2em;
     }
 }
