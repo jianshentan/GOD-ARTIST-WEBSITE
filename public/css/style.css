@@ -116,7 +116,6 @@ h2 {
 
 .inline {
     display: inline-block;
-    height: 100%;
     vertical-align: top;
 }
 
@@ -181,6 +180,14 @@ h2 {
 }
 
 .type-4__right {
+}
+
+.hipster_on_a_leash {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('../media/buzzfeed.png');
+    cursor: pointer;
 }
 
 .mid-container{
@@ -315,6 +322,7 @@ h2 {
 
 #cn_headlines__content {
     position: absolute;
+    height: 100%;
 }
 
 #cn_headlines__button {

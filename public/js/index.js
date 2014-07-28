@@ -14,5 +14,14 @@ $( document ).ready( function() {
     $( "#guo-in-usa__button" ).click( function( ) {
         window.location.href = "/guo_in_usa";
     });
+
+    $( ".hipster_on_a_leash" ).click( function( ) {
+        openInNewTab( "http://www.buzzfeed.com/guoohdong/hipster-on-a-leash-vit4" );
+    });
 });
+
+function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
 
