@@ -182,12 +182,37 @@ h2 {
 .type-4__right {
 }
 
+.hipster_on_a_leash_header {
+    cursor: pointer;
+}
+
 .hipster_on_a_leash {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    border: 5px solid white;
     margin: 0 auto;
     background-image: url('../media/buzzfeed.png');
+    background-size: cover;
     cursor: pointer;
+    display: inline-block;
+}
+
+.hipster_on_a_leash_tab {
+    width: 50px;
+    display: inline-block;
+}
+
+.hipster_on_a_leash_question {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    border: 5px solid white;
+    margin: 0 auto;
+    background-image: url('../media/questionmark.png');
+    background-size: cover;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .mid-container{
@@ -496,6 +521,11 @@ h2 {
     -webkit-animation: shadowfadein__container-mid 300ms ease-in-out;
 }
 
+.center {
+    width: 100%;
+    text-align: center;
+}
+
 .back {
     background-color: white;
     margin: 90px 0 300px 0;
@@ -522,6 +552,22 @@ h2 {
 #cn_propaganda__detail_container iframe {
     margin: 10px auto !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

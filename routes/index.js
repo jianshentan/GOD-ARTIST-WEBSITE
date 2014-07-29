@@ -15,6 +15,10 @@ exports.sxlw= function(req, res){
   res.render( 'sxlw' );
 };
 
+exports.hipster_on_a_leash = function(req, res){
+  res.render( 'hipster_on_a_leash' );
+};
+
 exports.cn_headlines = function(req, res){
   res.render( 'cn_headlines' );
 };

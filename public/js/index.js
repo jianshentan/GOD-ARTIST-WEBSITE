@@ -18,6 +18,13 @@ $( document ).ready( function() {
     $( ".hipster_on_a_leash" ).click( function( ) {
         openInNewTab( "http://www.buzzfeed.com/guoohdong/hipster-on-a-leash-vit4" );
     });
+
+    $( ".hipster_on_a_leash_header" ).click( function( ) {
+        openInNewTab( "http://www.buzzfeed.com/guoohdong/hipster-on-a-leash-vit4" );
+    });
+    $( ".hipster_on_a_leash_question" ).click( function( ) {
+        window.location.href = "/hipster_on_a_leash";
+    });
 });
 
 function openInNewTab(url) {

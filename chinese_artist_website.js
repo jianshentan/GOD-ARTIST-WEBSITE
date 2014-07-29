@@ -32,6 +32,7 @@ if ('development' == app.get('env')) {
 app.get('/', routes.enter);
 app.get('/home', routes.home);
 app.get('/sxlw', routes.sxlw);
+app.get('/hipster_on_a_leash', routes.hipster_on_a_leash);
 app.get('/cn_headlines', routes.cn_headlines);
 app.get('/cn_propaganda', routes.cn_propaganda);
 app.get('/guo_in_usa', routes.guo_in_usa);
