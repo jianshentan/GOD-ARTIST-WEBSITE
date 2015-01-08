@@ -1,6 +1,6 @@
 $( document ).ready( function() {
-    $( "#icunyc__button" ).click( function() {
-        window.location.href = "/icunyc";
+    $( "#ai_propaganda__button" ).click( function() {
+        openInNewTab( "http://www.buzzfeed.com/guoohdong/hipster-on-a-leash-vit4" );
     });
 
     $( "#sxlw__button" ).click( function() {
@@ -36,7 +36,4 @@ function openInNewTab(url) {
   win.focus();
 }
 
-function icunyc() {
-
-};
 

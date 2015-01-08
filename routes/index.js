@@ -31,6 +31,6 @@ exports.guo_in_usa = function(req, res){
   res.render( 'guo_in_usa' );
 };
 
-exports.icunyc = function(req, res){
-  res.render( 'icunyc' );
+exports.ai_propaganda = function(req, res){
+  res.render( 'ai_propaganda' );
 };
