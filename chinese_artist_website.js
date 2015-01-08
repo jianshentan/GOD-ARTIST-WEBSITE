@@ -36,6 +36,7 @@ app.get('/hipster_on_a_leash', routes.hipster_on_a_leash);
 app.get('/cn_headlines', routes.cn_headlines);
 app.get('/cn_propaganda', routes.cn_propaganda);
 app.get('/guo_in_usa', routes.guo_in_usa);
+app.get('/icunyc', routes.icunyc);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

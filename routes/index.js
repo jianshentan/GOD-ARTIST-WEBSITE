@@ -27,6 +27,10 @@ exports.cn_propaganda = function(req, res){
   res.render( 'cn_propaganda' );
 };
 
-exports.guo_in_usa= function(req, res){
+exports.guo_in_usa = function(req, res){
   res.render( 'guo_in_usa' );
+};
+
+exports.icunyc = function(req, res){
+  res.render( 'icunyc' );
 };

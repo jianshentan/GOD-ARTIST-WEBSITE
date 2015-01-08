@@ -1,4 +1,8 @@
 $( document ).ready( function() {
+    $( "#icunyc__button" ).click( function() {
+        window.location.href = "/icunyc";
+    });
+
     $( "#sxlw__button" ).click( function() {
         window.location.href = "/sxlw";
     });
@@ -31,4 +35,8 @@ function openInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();
 }
+
+function icunyc() {
+
+};
 
